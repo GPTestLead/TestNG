@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FailedTestCaseWithIannotationTransformer]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.TestNG.GoogleTitleTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.GoogleTitleTest -->
+      <class name="TestNG.TestNG.testCase1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="linkText"/>
+          <include name="Alert"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.testCase1 -->
+      <class name="TestNG.TestNG.TestNGFeatures">
+        <methods>
+          <include name="loginTest"/>
+          <include name="SearchPage"/>
+          <include name="RealPage"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.TestNGFeatures -->
+      <class name="TestNG.TestNG.dependency">
+        <methods>
+          <include name="method2"/>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.dependency -->
+      <class name="TestNG.TestNG.ExceptionTimeoutTest">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.ExceptionTimeoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FailedTestCaseWithIannotationTransformer] -->

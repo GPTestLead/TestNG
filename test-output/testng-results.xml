@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-04T16:53:18Z" name="Default suite" finished-at="2021-01-04T16:53:26Z" duration-ms="8044">
+  <suite started-at="2021-01-06T06:33:07Z" name="Default suite" finished-at="2021-01-06T06:33:07Z" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2021-01-04T16:53:18Z" name="Default test" finished-at="2021-01-04T16:53:26Z" duration-ms="8044">
-      <class name="TestNG.TestNG.testcase1">
-        <test-method signature="login()[pri:1, instance:TestNG.TestNG.testcase1@343570b7]" started-at="2021-01-04T16:53:18Z" name="login" finished-at="2021-01-04T16:53:26Z" duration-ms="8011" status="PASS">
+    <test started-at="2021-01-06T06:33:07Z" name="Default test" finished-at="2021-01-06T06:33:07Z" duration-ms="40">
+      <class name="extentReports.ExtentReports">
+        <test-method signature="loginTest()[pri:0, instance:extentReports.ExtentReports@609db43b]" started-at="2021-01-06T06:33:07Z" name="loginTest" finished-at="2021-01-06T06:33:07Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- TestNG.TestNG.testcase1 -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- extentReports.ExtentReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

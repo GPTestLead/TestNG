@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FailedTestCaseWithIannotationTransformer">
+
+<listeners>
+<listener class-name="Analyzer.MyTransformer" />
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.TestNG.ExceptionTimeoutTest"/>
+      <class name="TestNG.TestNG.testCase2"/>
+      <class name="TestNG.TestNG.testCase1"/>
+      <class name="TestNG.TestNG.GoogleTitleTest"/>
+      <class name="TestNG.TestNG.AppTest"/>
+      <class name="TestNG.TestNG.TestNGFeatures"/>
+      <class name="TestNG.TestNG.InvocationCountTest"/>
+      <class name="TestNG.TestNG.dependency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- FailedTestCaseWithIannotationTransformer -->

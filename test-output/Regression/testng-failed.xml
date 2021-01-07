@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sprint2(failed)">
+    <classes>
+      <class name="TestNG.TestNG.TestNGFeatures">
+        <methods>
+          <include name="loginTest"/>
+          <include name="SearchPage"/>
+          <include name="RealPage"/>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.TestNGFeatures -->
+      <class name="TestNG.TestNG.ExceptionTimeoutTest">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.ExceptionTimeoutTest -->
+      <class name="TestNG.TestNG.dependency">
+        <methods>
+          <include name="method2"/>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.dependency -->
+      <class name="TestNG.TestNG.GoogleTitleTest">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestNG.TestNG.GoogleTitleTest -->
+    </classes>
+  </test> <!-- Sprint2(failed) -->
+</suite> <!-- Failed suite [Regression] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+  <test thread-count="5" name="Sprint2">
+    <classes>
+      <class name="TestNG.TestNG.ExceptionTimeoutTest"/>
+      <class name="TestNG.TestNG.testCase2"/>
+      <class name="TestNG.TestNG.testCase1"/>
+      <class name="TestNG.TestNG.GoogleTitleTest"/>
+      <class name="TestNG.TestNG.AppTest"/>
+      <class name="TestNG.TestNG.TestNGFeatures"/>
+      <class name="TestNG.TestNG.InvocationCountTest"/>
+      <class name="TestNG.TestNG.dependency"/>
+    </classes>
+  </test> <!-- Sprint2 -->
+</suite> <!-- Regression -->
